@@ -1,4 +1,4 @@
-* {
+		* {
 			box-sizing: border-box;
 			margin: 0;
 			padding: 0;
@@ -84,7 +84,8 @@
 				background-color: rgb(200, 225, 230);
 			}
     		.wid {
-    			height: 172px;
+    			height: 180px;
+    			padding-bottom: 5px;
     		}
     		.header2 {
     			float: none;
@@ -102,5 +103,10 @@
     		}
     		iframe {
     			top: 0;
+    		}
+    	}
+    	@media screen and (min-width: 1530px) {
+    		.wid {
+    			height: 200px;
     		}
 		}
